@@ -1,0 +1,25 @@
+# environment
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# downloaded model weights (fetched automatically on first run)
+models/
+
+# per-song data: audio, stems, transcriptions and caches derived from a recording
+# are that recording's material - keep them out of the repository
+out*/
+stems/
+cache/
+*.log
+*.mp3
+*.wav
+*.flac
+*.m4a
+*.ogg
+*.aac
+*.mid
+*.midi
+*.musicxml
+*.mxl

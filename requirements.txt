@@ -1,0 +1,15 @@
+# Python 3.11 (several audio/ML packages do not support newer Pythons yet)
+torch>=2.4
+numpy>=1.26,<2.3
+scipy>=1.11
+librosa>=0.10
+soundfile>=0.12
+pretty_midi>=0.2.10
+music21>=9.1
+torchcrepe>=0.0.23
+piano_transcription_inference>=0.0.6
+basic-pitch>=0.4.0
+audio-separator>=0.47
+onnxruntime>=1.18
+# basic-pitch pulls resampy 0.4.2, which still imports pkg_resources (removed in setuptools 80)
+setuptools<80
